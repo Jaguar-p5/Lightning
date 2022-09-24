@@ -95,9 +95,9 @@ class Bolt
          shiftTimer -= 1;
          if(shiftTimer == 0)
          {
-           rShift = ((int)(Math.random() * 256)- r)/5.0;
-           gShift = ((int)(Math.random() * 256)- g)/5.0;
-           bShift = ((int)(Math.random() * 256)- b)/5.0;
+           rShift = ((int)(Math.random() * 256)- r)/13.0;
+           gShift = ((int)(Math.random() * 256)- g)/13.0;
+           bShift = ((int)(Math.random() * 256)- b)/13.0;
            shiftTimer = 13;
          }
        }
