@@ -18,7 +18,7 @@ float rShift = 0;
 float gShift = 0;
 float bShift = 0;
 
-float shiftTimer = 5;
+float shiftTimer = 1;
 
 color theColor = color (r,g,b);
 Bolt [] boltList = {new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111), new Bolt(theColor,-11111)};
@@ -98,7 +98,7 @@ class Bolt
            rShift = ((int)(Math.random() * 256)- r)/5.0;
            gShift = ((int)(Math.random() * 256)- g)/5.0;
            bShift = ((int)(Math.random() * 256)- b)/5.0;
-           shiftTimer = 5;
+           shiftTimer = 13;
          }
        }
          
