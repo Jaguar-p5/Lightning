@@ -29,7 +29,17 @@ void draw()
 {
  fill(11,11, 11, 7);
  rect(-111,-111,8900,8090); // Elegant solution
- 
+ if(mousePressed){
+  for(int i = 0; i <boltList.length; i++)
+  {
+    if(boltList[i].status == false)
+    {
+      theColor = color (r,g,b);
+      boltList[i] = new Bolt(theColor, mouseX);
+      break;
+    }
+  }
+}
  for(int i = 0; i < boltList.length; i++)
    if(boltList[i].status == true)
      boltList[i].inc();
